@@ -68,10 +68,10 @@ const Dashboard = ({ navigate }) => {
               
               <div className="bg-blue-50 p-6 rounded-lg">
                 <h3 className="text-lg font-medium text-blue-900 mb-2">
-                  Authentication Status
+                  Account Status
                 </h3>
                 <p className="text-sm text-blue-700">
-                  ✅ You are authenticated and have access to protected routes.
+                  ✅ Welcome back! Your account is active.
                 </p>
               </div>
             </div>

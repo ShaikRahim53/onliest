@@ -48,17 +48,9 @@ Open [http://localhost:5173](http://localhost:5173) in your browser.
 - ✅ **Reusable Components** - Modular UI components
 - ✅ **Custom Hooks** - Authentication and form logic
 - ✅ **Responsive Design** - Mobile-friendly interface
+- ✅ **Smart Error Messages** - Contextual feedback for new users
 
-## 🔐 Demo Credentials
-
-For testing the application:
-
-```
-Email: test@example.com
-Password: password123
-```
-
-## 📁 Project Structure
+##  Project Structure
 
 ```
 src/
