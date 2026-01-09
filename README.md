@@ -50,6 +50,15 @@ Open [http://localhost:5173](http://localhost:5173) in your browser.
 - ✅ **Responsive Design** - Mobile-friendly interface
 - ✅ **Smart Error Messages** - Contextual feedback for new users
 
+## 🔐 Demo Credentials
+
+For testing the application:
+
+```
+Email: test@example.com
+Password: password123
+```
+
 ##  Project Structure
 
 ```
