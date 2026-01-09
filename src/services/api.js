@@ -90,7 +90,13 @@ export const authService = {
     const user = mockUsers.find(u => u.email === email && u.password === password);
     
     if (!user) {
-      throw new Error('Invalid email or password');
+      // Check if email exists but password is wrong
+      const emailExists = mockUsers.find(u => u.email === email);
+      if (emailExists) {
+        throw new Error('Incorrect password. Please try again.');
+      } else {
+        throw new Error('New to this application? Sign up to create an account.');
+      }
     }
     
     // Generate token

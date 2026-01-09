@@ -104,6 +104,17 @@ const Login = ({ navigate }) => {
           />
         )}
         
+        {alert && alert.message.includes('New to this application') && (
+          <div className="mt-4 text-center">
+            <button
+              onClick={goToSignup}
+              className="text-blue-600 hover:text-blue-500 font-medium text-sm underline"
+            >
+              Create an account →
+            </button>
+          </div>
+        )}
+        
         <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
           <FormInput
             label="Email Address"
